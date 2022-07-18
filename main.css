@@ -111,3 +111,7 @@ body {
 .section {
     float: right;
 }
+
+table tr td {
+  border: 1px solid black;
+}
