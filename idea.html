@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <<meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="snake-icon.png">
+    <title>Project Idea</title>
+  </head>
+  <body>
+    <div id="header">
+        <div class="nav-tab">
+            <img id="icon" src="snake-light.jpg"></img>
+            <div id="nav-tab-text">
+                <a href="index.html"><button class="tablinks">Home</button></a>
+                <a href="#about"><button class="tablinks">About Us</button></a>
+                <a href="#it-work"><button class="tablinks">IT Work</button></a>
+                <a href="#it-tech"><button class="tablinks">IT Technologies</button></a>
+                <a href="#it-project"><button class="tablinks">IT Project</button></a>
+                <a href="#references"><button class="tablinks">References</button></a>
+                <a href="#contact"><button class="tablinks">Contact Us</button></a>
+            <a href="https://github.com/MKM-RMIT/IIT-A2"><img src="GitHub-Mark-Light-32px.png" id="github-link"></img></a>
+            </div>
+        </div> 
+    <div id="main" class="center">
+        <h1>Project Idea</h1>
+        <h2>Overview</h2>
+        <p>Our project idea is an application that can be used to authenticate game & trading cards such as Yu-Gi-OH, Pokémon, Baseball and more to ensure that they are real. At an extremely basic level, a camera with a database of trading card images of authentic and fake cards used to distinguish the fake would be the goal, ultimately this could expand to whole machinery that can use this system. This application can be pitched to reselling companies such as Troll and Toad & Mighty Collectibles to make it as seamless as possible when verifying trading cards. We would like this application to be used commercially first but later to be rolled out to the wider consumer base after a certain period. </p>
+        <h2>Motivation</h2>
+        <p>A recent article written in 2022 by the Nintendo Wire has advised that over 43 billion cards have been sold by Pokémon in March 22 alone. The line is blurred when it comes to what’s real and fake, and utilising a simple phone camera to scan the front & back of a card to determine its authenticity would be an absolute game changer for this problem. This not only applies to Pokémon cards but to baseball cards, Yu-Gi-Oh cards and many more. The market is so large and there are many different opportunities to pitch this idea to companies, without even discussing the consumer space at the moment. </p>
+        <h2>Description</h2>
+        <p>It is natural that anything that is branded, used by people and attracts people to it will be misused by malicious opportunists. Trading cards would be abused by people making a fake product that appears the same as the original product, selling it to people who are deceived into thinking it is a real card, and by doing this they make a profit. This causes harm to those people who are scammed, and harm to the company who prints legitimate cards. For example, if we consider a Pokémon card, someone can sell a fake card at a high price. This is severely harmful to the buyer because they cannot use it or sell it. If the buyer then sells their fake card and is caught, they may be punished. As a result, people stop buying and selling cards, and when the userbase of a brand or a company shrinks like this, it causes the value and the credibility of that company to decrease. </p>
+        <p>For this reason, we wanted to create a solution for this, and we came to the idea of creating a program through which the user can ensure the validity of their cards. Inspired by the market and made for the consumer, this is how we would like to describe our product. Not only are we able to take advantage of such a huge market space, but it would be constantly expanding to include any other card product that exists. With so many different companies that create trading cards, the sky's the limit with how this app can be utilised. </p>
+        <p>The application that we will build will have six steps for card recognition, which are described below: </p>
+        <p>Step 1: When the user opens the app, before the user’s card is checked by the app, a guide is displayed for the user so that the user can check their own physical card first, as there are some signs that only can be recognized if the card is physically available. </p>
+        <p>The guide contains the following: <br>  
+
+<em>“First, you should check if your card is thinner or thicker than a real card. If so, your card is fake.” <br>
+
+“Second, you should compare your card’s weight to a real card and if you notice that your card is heavier or lights weight, you should know that your card is fake.”<br>  
+
+“Third, if you are very suspicious about your card, then you should take an original card that is no longer valuable, then tear a little of your card and a little of the other card, then compare damage to both cards. If the suspicious card is torn faster and more easily, then it is fake.”<br>  
+
+“If you're sure that your card is physically real then enter the next step.”</em><br> 
+
+(How to Know If Pokémon Cards Are Fake (with Pictures) - wikiHow, 2022)<br></p>
+        <p><b>Step 2:</b> The application asks the user to fill out a form with the name of the card and the game it's from. If the app doesn't recognize the card from name and origin, the user can submit a request for the developers to add to the app's database of known cards. </p>
+        <p><b>Step 3:</b> The application asks the user to allow the application to access the user’s device’s gallery and camera.</p>
+        <p><b>Step 4:</b> If the user has a photo of the card, the application will ask the user to upload the photo. </p>
+        <p><b>Step 5:</b> If there is no photo of the card in the user’s device, the program gives the user the option of scanning their card with their device camera, so that if the app could not recognize the user’s card state through the form, it can attempt to recognize it from the scan of the user’s card from its scanner. </p>
+        <p><b>Step 6:</b> After receiving the user’s card scan, application matches the user’s card specifications with real card specifications which are described below:</p>
+        <p><b>Images:</b> First of all, the app sees the image of the card and matches it with the original image, if there is something that looks suspicious or if it looks like it has been affixed, application will give the user the result that their card is fake. If the user’s card is a Pokémon card, the app will check the card’s attack and health point (HP) stats. If the HP of user’s card is close to 300 or 300 and there is no attach, the app will give the user the result that their card is fake.  </p>
+        <p><b>Spelling mistakes:</b> If the application notices any spelling mistakes in text of the user’s card, it will give the user the result that their card is fake. </p>
+        <p><b>Symbol comparison:</b> If the user’s card is a Pokémon card, the app checks the user’s energy symbol and compares it with real ones. Often if the user’s card is fake, its energy symbol is larger. </p>
+        <p><b>Font:</b> If user’s card’s font has any difference with real card’s font, the app will give the user the result that their card is fake. </p>
+        <p><b>Card box:</b> Fake card boxes do not have trademarks. For example, if the app notice that the user’s Pokémon card box does not have trademarks, it will give the user the result that their card is fake. </p>
+        <p><b>Card colour:</b> The app will check user’s card’s colour carefully and even if the app notices the slightest darkness or lightness than a real one, it will give the user the result that their card is fake. </p>
+        <p>(How to Know If Pokémon Cards Are Fake (with Pictures) - wikiHow, 2022) </p>
+        <p>These are the specifications that match most real trading cards such as Yu-Gi-OH, Pokémon, Baseball or all sport trading cards and more. The app in its final version would have different options for various trading card companies, e.g., Pokémon, Magic the Gathering, etc. </p>
+        <p>We would implement an ever-growing database of images that can sort for discrepancies between certain cards and have the app able to give a stamp/verification seal which would make reselling easier. Imagine StockX with shoes but for cards- The app would simplify the process to promote growth in the trading card community. </p>
+        <h2>Tools and Technologies </h2>
+        <p>Some basic tools required would be:</p>
+        <ul>
+        <li>A computer to write the software and access the storage/database</li>
+        <li>A phone with a high-quality camera to test out the application </li>
+        <li>A storage system that will hold the database of fake/real trading card images that allows for distinguishing of discrepancies with the cards </li>
+        <li>A virtual machine/raspberry PI as a second system for troubleshooting </li>
+        <li>An image recognition API such as Vision AI</li>
+        <li>A database of real and fake card scans </li>
+        <li>A server to host the database so that the app can access it </li>
+        </ul>
+        <h2>Skills Required</h2>
+        <p>The skills required to complete this project would be:</p>
+        <ul>
+            <li>Knowledge of HTML, CSS, Java, and Kotlin, to create a phone application </li>
+            <li>Software development programs such as Adobe Dreamweaver, Android Studio, Xcode, which will give access to Java, HTML, CSS and more for the app to start being written. </li>
+            <li>Possible AI integration for the app to get smarter/learn over time.</li>
+        </ul>
+        <h2>Desired Outcome</h2>
+        <p>If the project is successful, the best positive outcome is that the consumers should be able to use their mobile phones to start authenticating their trading cards. For example, when users are buying their trading cards, they can scan the card with the app and the app recognizes the card whether the card is fake or real immediately. As a result, the buyer could buy their card without any fear of losing their money to a scam. This promotes clean deals between buyers and sellers, and a reduction of scammers in the trading card market. This would be a huge win as they would be able to differentiate fake and real cards at ease, eliminating most of the fake resellers in the market from the equation. Ultimately we want the app to be able to verify cards from multiple companies and an easy to use interface that allows the individual to search through ease. </p>
+    <h2>References</h2>
+    <p>Wikihow.com. 2022. How to Know If Pokémon Cards Are Fake (with Pictures) - wikiHow. [online] Available at: <https://www.wikihow.com/Know-If-Pok%C3%A9mon-Cards-Are-Fake> [Accessed 19 July 2022].</p>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
